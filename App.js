@@ -44,8 +44,8 @@ const TabNavigator = createBottomTabNavigator({
 })
 
 const SwitchNavigator = createSwitchNavigator({
-  //LoginScreen : LoginScreen
-  //TabNavigator : TabNavigator
+  LoginScreen : LoginScreen
+  TabNavigator : TabNavigator
 
   //LoginScreen : LoginScreen,
   //TabNavigator : TabNavigator
