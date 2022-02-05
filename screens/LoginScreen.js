@@ -73,11 +73,11 @@ export default class LoginScreen extends React.Component {
               var email  = await this.state.email;
               var password = await this.state.password
               //firebase.auth().signInWithEmailAndPassword(email, password)
-              //firebase.auth().signInWithEmailAndPassword(emailId, password)
+              firebase.auth().signInWithEmailAndPassword(emailId, password)
               //firebase.auth().signWithEmailAndPassword(email, password)
               //firebase.auth().signInWithEmailAndPassword()
               .then(()=>{
-                //this.props.navigation.navigate('WriteStory')
+                this.props.navigation.navigate('WriteStory')
                 //this.props.navigation.navigate('writeStory')
                 //this.props.navigate('WriteStory')
                 //this.props.navigate.navigation('WriteStory')
